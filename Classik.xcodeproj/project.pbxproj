@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		04E364491C51807A00A60C1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E364481C51807A00A60C1C /* AppDelegate.swift */; };
-		04E3644B1C51807A00A60C1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3644A1C51807A00A60C1C /* ViewController.swift */; };
 		04E3644E1C51807A00A60C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3644C1C51807A00A60C1C /* Main.storyboard */; };
 		04E364501C51807A00A60C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3644F1C51807A00A60C1C /* Assets.xcassets */; };
 		04E364531C51807A00A60C1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E364511C51807A00A60C1C /* LaunchScreen.storyboard */; };
 		04E3645E1C51807A00A60C1C /* ClassikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3645D1C51807A00A60C1C /* ClassikTests.swift */; };
 		04E364691C51807A00A60C1C /* ClassikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E364681C51807A00A60C1C /* ClassikUITests.swift */; };
+		04E3647E1C5181BD00A60C1C /* MEBMainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3647D1C5181BD00A60C1C /* MEBMainCollectionViewController.swift */; };
+		04E364801C51820000A60C1C /* UIColor+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3647F1C51820000A60C1C /* UIColor+Palette.swift */; };
+		04E364821C51822E00A60C1C /* UIImage+Decompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E364811C51822E00A60C1C /* UIImage+Decompression.swift */; };
+		04E364841C51827500A60C1C /* ClassikLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E364831C51827500A60C1C /* ClassikLayout.swift */; };
+		04E364871C5182E200A60C1C /* ClassikCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E364861C5182E200A60C1C /* ClassikCell.swift */; };
+		04E3648B1C51831200A60C1C /* MEBClassik.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3648A1C51831200A60C1C /* MEBClassik.swift */; };
+		04E3648D1C51839C00A60C1C /* MEBSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3648C1C51839C00A60C1C /* MEBSession.swift */; };
+		04E3648F1C5184B400A60C1C /* Classiks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E3648E1C5184B400A60C1C /* Classiks.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		04E364451C51807A00A60C1C /* Classik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Classik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E364481C51807A00A60C1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04E3644A1C51807A00A60C1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04E3644D1C51807A00A60C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E3644F1C51807A00A60C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E364521C51807A00A60C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		04E364641C51807A00A60C1C /* ClassikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E364681C51807A00A60C1C /* ClassikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassikUITests.swift; sourceTree = "<group>"; };
 		04E3646A1C51807A00A60C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E3647D1C5181BD00A60C1C /* MEBMainCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEBMainCollectionViewController.swift; sourceTree = "<group>"; };
+		04E3647F1C51820000A60C1C /* UIColor+Palette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Palette.swift"; sourceTree = "<group>"; };
+		04E364811C51822E00A60C1C /* UIImage+Decompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Decompression.swift"; sourceTree = "<group>"; };
+		04E364831C51827500A60C1C /* ClassikLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassikLayout.swift; sourceTree = "<group>"; };
+		04E364861C5182E200A60C1C /* ClassikCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassikCell.swift; sourceTree = "<group>"; };
+		04E3648A1C51831200A60C1C /* MEBClassik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEBClassik.swift; sourceTree = "<group>"; };
+		04E3648C1C51839C00A60C1C /* MEBSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEBSession.swift; sourceTree = "<group>"; };
+		04E3648E1C5184B400A60C1C /* Classiks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Classiks.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,14 @@
 		04E364471C51807A00A60C1C /* Classik */ = {
 			isa = PBXGroup;
 			children = (
-				04E364481C51807A00A60C1C /* AppDelegate.swift */,
-				04E3644A1C51807A00A60C1C /* ViewController.swift */,
-				04E3644C1C51807A00A60C1C /* Main.storyboard */,
-				04E3644F1C51807A00A60C1C /* Assets.xcassets */,
-				04E364511C51807A00A60C1C /* LaunchScreen.storyboard */,
-				04E364541C51807A00A60C1C /* Info.plist */,
+				04E364761C5180C500A60C1C /* Assets */,
+				04E364771C5180C900A60C1C /* Controllers */,
+				04E364781C5180D900A60C1C /* Extensions */,
+				04E364791C5180F500A60C1C /* Layouts */,
+				04E3647A1C51810000A60C1C /* Models */,
+				04E3647B1C51810800A60C1C /* Storyboards */,
+				04E3647C1C51811700A60C1C /* Supporting Files */,
+				04E364851C5182CB00A60C1C /* Views */,
 			);
 			path = Classik;
 			sourceTree = "<group>";
@@ -123,6 +139,75 @@
 				04E3646A1C51807A00A60C1C /* Info.plist */,
 			);
 			path = ClassikUITests;
+			sourceTree = "<group>";
+		};
+		04E364761C5180C500A60C1C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				04E3644F1C51807A00A60C1C /* Assets.xcassets */,
+				04E3648E1C5184B400A60C1C /* Classiks.plist */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		04E364771C5180C900A60C1C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04E3647D1C5181BD00A60C1C /* MEBMainCollectionViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		04E364781C5180D900A60C1C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04E3647F1C51820000A60C1C /* UIColor+Palette.swift */,
+				04E364811C51822E00A60C1C /* UIImage+Decompression.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		04E364791C5180F500A60C1C /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				04E364831C51827500A60C1C /* ClassikLayout.swift */,
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
+		04E3647A1C51810000A60C1C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04E3648A1C51831200A60C1C /* MEBClassik.swift */,
+				04E3648C1C51839C00A60C1C /* MEBSession.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		04E3647B1C51810800A60C1C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04E3644C1C51807A00A60C1C /* Main.storyboard */,
+				04E364511C51807A00A60C1C /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		04E3647C1C51811700A60C1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04E364481C51807A00A60C1C /* AppDelegate.swift */,
+				04E364541C51807A00A60C1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04E364851C5182CB00A60C1C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04E364861C5182E200A60C1C /* ClassikCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E364531C51807A00A60C1C /* LaunchScreen.storyboard in Resources */,
+				04E3648F1C5184B400A60C1C /* Classiks.plist in Resources */,
 				04E364501C51807A00A60C1C /* Assets.xcassets in Resources */,
 				04E3644E1C51807A00A60C1C /* Main.storyboard in Resources */,
 			);
@@ -256,8 +342,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E3644B1C51807A00A60C1C /* ViewController.swift in Sources */,
 				04E364491C51807A00A60C1C /* AppDelegate.swift in Sources */,
+				04E364821C51822E00A60C1C /* UIImage+Decompression.swift in Sources */,
+				04E364871C5182E200A60C1C /* ClassikCell.swift in Sources */,
+				04E3648D1C51839C00A60C1C /* MEBSession.swift in Sources */,
+				04E364841C51827500A60C1C /* ClassikLayout.swift in Sources */,
+				04E3648B1C51831200A60C1C /* MEBClassik.swift in Sources */,
+				04E364801C51820000A60C1C /* UIColor+Palette.swift in Sources */,
+				04E3647E1C5181BD00A60C1C /* MEBMainCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
