@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		04E364491C51807A00A60C1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E364481C51807A00A60C1C /* AppDelegate.swift */; };
 		04E3644E1C51807A00A60C1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E3644C1C51807A00A60C1C /* Main.storyboard */; };
-		04E364501C51807A00A60C1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E3644F1C51807A00A60C1C /* Assets.xcassets */; };
 		04E364531C51807A00A60C1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E364511C51807A00A60C1C /* LaunchScreen.storyboard */; };
 		04E3645E1C51807A00A60C1C /* ClassikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3645D1C51807A00A60C1C /* ClassikTests.swift */; };
 		04E364691C51807A00A60C1C /* ClassikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E364681C51807A00A60C1C /* ClassikUITests.swift */; };
@@ -21,6 +20,7 @@
 		04E3648D1C51839C00A60C1C /* MEBSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3648C1C51839C00A60C1C /* MEBSession.swift */; };
 		04E3648F1C5184B400A60C1C /* Classiks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E3648E1C5184B400A60C1C /* Classiks.plist */; };
 		04E364911C52D1AD00A60C1C /* MEBClassBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E364901C52D1AD00A60C1C /* MEBClassBlock.swift */; };
+		04E364931C52DFBC00A60C1C /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E364921C52DFBC00A60C1C /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		04E364451C51807A00A60C1C /* Classik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Classik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E364481C51807A00A60C1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E3644D1C51807A00A60C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		04E3644F1C51807A00A60C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E364521C51807A00A60C1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E364541C51807A00A60C1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04E364591C51807A00A60C1C /* ClassikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassikTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +60,7 @@
 		04E3648C1C51839C00A60C1C /* MEBSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEBSession.swift; sourceTree = "<group>"; };
 		04E3648E1C5184B400A60C1C /* Classiks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Classiks.plist; sourceTree = "<group>"; };
 		04E364901C52D1AD00A60C1C /* MEBClassBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEBClassBlock.swift; sourceTree = "<group>"; };
+		04E364921C52DFBC00A60C1C /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +144,7 @@
 		04E364761C5180C500A60C1C /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				04E3644F1C51807A00A60C1C /* Assets.xcassets */,
+				04E364921C52DFBC00A60C1C /* Media.xcassets */,
 				04E3648E1C5184B400A60C1C /* Classiks.plist */,
 			);
 			name = Assets;
@@ -278,6 +278,7 @@
 				TargetAttributes = {
 					04E364441C51807A00A60C1C = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3GBQ2H4QX7;
 					};
 					04E364581C51807A00A60C1C = {
 						CreatedOnToolsVersion = 7.2;
@@ -314,9 +315,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04E364931C52DFBC00A60C1C /* Media.xcassets in Resources */,
 				04E364531C51807A00A60C1C /* LaunchScreen.storyboard in Resources */,
 				04E3648F1C5184B400A60C1C /* Classiks.plist in Resources */,
-				04E364501C51807A00A60C1C /* Assets.xcassets in Resources */,
 				04E3644E1C51807A00A60C1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,6 +490,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Classik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meb.Classik;
@@ -500,6 +503,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Classik/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.meb.Classik;

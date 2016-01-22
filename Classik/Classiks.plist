@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>Title</key>
-		<string>Signals &amp; Systems</string>
+		<string>Signals - Lect.</string>
 		<key>Time</key>
 		<string>Mon, Wed • 12:00PM - 2:00 PM</string>
 		<key>Code</key>
@@ -16,123 +16,99 @@
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Signals &amp; Systems</string>
+		<string>Signals - O.H.</string>
 		<key>Time</key>
-		<string>Mon, Wed • 12:00PM - 2:00 PM</string>
+		<string>Mon • 10:00AM - 11:00 AM</string>
 		<key>Code</key>
 		<string>EC401 A1</string>
 		<key>Room</key>
-		<string>PHO 203</string>
+		<string>PHO 433</string>
 		<key>Professor</key>
 		<string>Nawab</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Signals &amp; Systems</string>
+		<string>The Crusades</string>
 		<key>Time</key>
-		<string>Mon, Wed • 12:00PM - 2:00 PM</string>
+		<string>Tue, Thu • 11:00AM - 12:30 PM</string>
 		<key>Code</key>
-		<string>EC401 A1</string>
+		<string>HI204 A1</string>
 		<key>Room</key>
-		<string>PHO 203</string>
+		<string>CAS 316</string>
 		<key>Professor</key>
-		<string>Nawab</string>
+		<string>Backman</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Signals &amp; Systems</string>
+		<string>Disc Mathematics</string>
 		<key>Time</key>
-		<string>Mon, Wed • 12:00PM - 2:00 PM</string>
+		<string>Tue, Thr • 12:30PM - 2:00 PM</string>
 		<key>Code</key>
-		<string>EC401 A1</string>
+		<string>MA193 A1</string>
 		<key>Room</key>
-		<string>PHO 203</string>
+		<string>PSY B39</string>
 		<key>Professor</key>
-		<string>Nawab</string>
+		<string>Enkosky</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Signals &amp; Systems</string>
+		<string>Mechanics I - Lect.</string>
 		<key>Time</key>
-		<string>Mon, Wed • 12:00PM - 2:00 PM</string>
+		<string>Tue, Thu • 2:00PM - 4:00 PM</string>
 		<key>Code</key>
-		<string>EC401 A1</string>
+		<string>EK301 B1</string>
 		<key>Room</key>
-		<string>PHO 203</string>
+		<string>PHO 210</string>
 		<key>Professor</key>
-		<string>Nawab</string>
+		<string>Holt</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Signals &amp; Systems</string>
+		<string>Mechanics I - Disc.</string>
 		<key>Time</key>
-		<string>Mon, Wed • 12:00PM - 2:00 PM</string>
+		<string>Mon, Tue • 6:00PM - 10:00 PM</string>
 		<key>Code</key>
-		<string>EC401 A1</string>
+		<string>EK301 B1</string>
 		<key>Room</key>
-		<string>PHO 203</string>
+		<string>PHO 202</string>
 		<key>Professor</key>
-		<string>Nawab</string>
+		<string>Holt</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Signals &amp; Systems</string>
+		<string>Physics II - Lect.</string>
 		<key>Time</key>
-		<string>Mon, Wed • 12:00PM - 2:00 PM</string>
+		<string>Tue, Thu • 5:00PM - 6:30 PM</string>
 		<key>Code</key>
-		<string>EC401 A1</string>
+		<string>PY212 B1</string>
 		<key>Room</key>
-		<string>PHO 203</string>
+		<string>SCI B23</string>
 		<key>Professor</key>
-		<string>Nawab</string>
+		<string>Jariwala</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Signals &amp; Systems</string>
+		<string>Physics II - Disc.</string>
 		<key>Time</key>
-		<string>Mon, Wed • 12:00PM - 2:00 PM</string>
+		<string>Wed • 11:00AM - 12:00 PM</string>
 		<key>Code</key>
-		<string>EC401 A1</string>
+		<string>PY212 D1</string>
 		<key>Room</key>
-		<string>PHO 203</string>
+		<string>SCI B58</string>
 		<key>Professor</key>
-		<string>Nawab</string>
+		<string>Jariwala</string>
 	</dict>
 	<dict>
 		<key>Title</key>
-		<string>Signals &amp; Systems</string>
+		<string>Physics II - Lab</string>
 		<key>Time</key>
-		<string>Mon, Wed • 12:00PM - 2:00 PM</string>
+		<string>Wed • 3:30PM - 6:30 PM</string>
 		<key>Code</key>
-		<string>EC401 A1</string>
+		<string>PY212 L3</string>
 		<key>Room</key>
-		<string>PHO 203</string>
+		<string>SCI B09</string>
 		<key>Professor</key>
-		<string>Nawab</string>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Signals &amp; Systems</string>
-		<key>Time</key>
-		<string>Mon, Wed • 12:00PM - 2:00 PM</string>
-		<key>Code</key>
-		<string>EC401 A1</string>
-		<key>Room</key>
-		<string>PHO 203</string>
-		<key>Professor</key>
-		<string>Nawab</string>
-	</dict>
-	<dict>
-		<key>Title</key>
-		<string>Signals &amp; Systems</string>
-		<key>Time</key>
-		<string>Mon, Wed • 12:00PM - 2:00 PM</string>
-		<key>Code</key>
-		<string>EC401 A1</string>
-		<key>Room</key>
-		<string>PHO 203</string>
-		<key>Professor</key>
-		<string>Nawab</string>
+		<string>Jariwala</string>
 	</dict>
 </array>
 </plist>

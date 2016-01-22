@@ -14,14 +14,19 @@ class MEBMainCollectionViewController: UICollectionViewController {
     
     // init all classik blocks
     let classiks = MEBClassBlock.allClassBlocks()
+    
+    // init all colors in palette
+    let colors = UIColor.palette()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // apply collection view styles
-        collectionView!.backgroundColor = UIColor.clearColor()
+        collectionView!.backgroundColor = UIColor.colorFromRGB(34, g: 49, b: 63)
         collectionView!.decelerationRate = UIScrollViewDecelerationRateFast
-
+        
+        // nav bar setup
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Compose, target: self, action: "compose")
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,6 +35,12 @@ class MEBMainCollectionViewController: UICollectionViewController {
 
     override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return UIStatusBarStyle.LightContent
+    }
+    
+    // MARK: Selectors
+    
+    func compose() {
+        // create new class block
     }
 
     // MARK: UICollectionViewDataSource
@@ -45,8 +56,11 @@ class MEBMainCollectionViewController: UICollectionViewController {
 
     override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! ClassikCell
+        
+        // customize the cell
         cell.classik = classiks[indexPath.item]
-        print(cell.classik?.code)
+        cell.contentView.backgroundColor = colors[indexPath.item]
+
         return cell
     }
 
