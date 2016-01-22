@@ -18,9 +18,9 @@
 		04E364821C51822E00A60C1C /* UIImage+Decompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E364811C51822E00A60C1C /* UIImage+Decompression.swift */; };
 		04E364841C51827500A60C1C /* ClassikLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E364831C51827500A60C1C /* ClassikLayout.swift */; };
 		04E364871C5182E200A60C1C /* ClassikCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E364861C5182E200A60C1C /* ClassikCell.swift */; };
-		04E3648B1C51831200A60C1C /* MEBClassik.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3648A1C51831200A60C1C /* MEBClassik.swift */; };
 		04E3648D1C51839C00A60C1C /* MEBSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E3648C1C51839C00A60C1C /* MEBSession.swift */; };
 		04E3648F1C5184B400A60C1C /* Classiks.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04E3648E1C5184B400A60C1C /* Classiks.plist */; };
+		04E364911C52D1AD00A60C1C /* MEBClassBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E364901C52D1AD00A60C1C /* MEBClassBlock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +58,9 @@
 		04E364811C51822E00A60C1C /* UIImage+Decompression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Decompression.swift"; sourceTree = "<group>"; };
 		04E364831C51827500A60C1C /* ClassikLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassikLayout.swift; sourceTree = "<group>"; };
 		04E364861C5182E200A60C1C /* ClassikCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassikCell.swift; sourceTree = "<group>"; };
-		04E3648A1C51831200A60C1C /* MEBClassik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEBClassik.swift; sourceTree = "<group>"; };
 		04E3648C1C51839C00A60C1C /* MEBSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEBSession.swift; sourceTree = "<group>"; };
 		04E3648E1C5184B400A60C1C /* Classiks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Classiks.plist; sourceTree = "<group>"; };
+		04E364901C52D1AD00A60C1C /* MEBClassBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MEBClassBlock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,8 +178,8 @@
 		04E3647A1C51810000A60C1C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				04E3648A1C51831200A60C1C /* MEBClassik.swift */,
 				04E3648C1C51839C00A60C1C /* MEBSession.swift */,
+				04E364901C52D1AD00A60C1C /* MEBClassBlock.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -346,8 +346,8 @@
 				04E364821C51822E00A60C1C /* UIImage+Decompression.swift in Sources */,
 				04E364871C5182E200A60C1C /* ClassikCell.swift in Sources */,
 				04E3648D1C51839C00A60C1C /* MEBSession.swift in Sources */,
+				04E364911C52D1AD00A60C1C /* MEBClassBlock.swift in Sources */,
 				04E364841C51827500A60C1C /* ClassikLayout.swift in Sources */,
-				04E3648B1C51831200A60C1C /* MEBClassik.swift in Sources */,
 				04E364801C51820000A60C1C /* UIColor+Palette.swift in Sources */,
 				04E3647E1C5181BD00A60C1C /* MEBMainCollectionViewController.swift in Sources */,
 			);

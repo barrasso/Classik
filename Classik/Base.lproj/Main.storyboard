@@ -12,22 +12,67 @@
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="1Hw-eb-JtI">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kxa-vz-5r2">
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="kxa-vz-5r2" customClass="ClassikLayout" customModule="Classik" customModuleProvider="target">
                             <size key="itemSize" width="50" height="50"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ClassikCell" id="a31-Hp-d6m" customClass="ClassikCell" customModule="Classik" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ClassikCell" id="gxn-rw-TGl" customClass="ClassikCell" customModule="Classik" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Inspiration" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HRi-fJ-ZIR">
+                                            <rect key="frame" x="0.0" y="78" width="200" height="44"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="44" id="7Ai-xF-tYY"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="38"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time, Room" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hi-Oo-yOD">
+                                            <rect key="frame" x="0.0" y="122" width="200" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="f9J-Z0-dDI"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speaker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2a-Gq-JY1">
+                                            <rect key="frame" x="0.0" y="143" width="200" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="avn-rS-fk4"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <constraints>
+                                    <constraint firstItem="8hi-Oo-yOD" firstAttribute="leading" secondItem="gxn-rw-TGl" secondAttribute="leading" id="1IL-yZ-gyf"/>
+                                    <constraint firstItem="K2a-Gq-JY1" firstAttribute="top" secondItem="8hi-Oo-yOD" secondAttribute="bottom" id="5PE-mE-vMk"/>
+                                    <constraint firstAttribute="centerY" secondItem="HRi-fJ-ZIR" secondAttribute="centerY" id="ATi-l3-V4A"/>
+                                    <constraint firstItem="8hi-Oo-yOD" firstAttribute="top" secondItem="HRi-fJ-ZIR" secondAttribute="bottom" id="EPx-cr-nOe"/>
+                                    <constraint firstAttribute="trailing" secondItem="K2a-Gq-JY1" secondAttribute="trailing" id="SWr-Ig-zjR"/>
+                                    <constraint firstAttribute="trailing" secondItem="HRi-fJ-ZIR" secondAttribute="trailing" id="T9P-gj-bAP"/>
+                                    <constraint firstItem="K2a-Gq-JY1" firstAttribute="leading" secondItem="gxn-rw-TGl" secondAttribute="leading" id="bLf-A8-Zgb"/>
+                                    <constraint firstAttribute="trailing" secondItem="8hi-Oo-yOD" secondAttribute="trailing" id="iHp-sB-bIW"/>
+                                    <constraint firstItem="HRi-fJ-ZIR" firstAttribute="leading" secondItem="gxn-rw-TGl" secondAttribute="leading" id="uIp-Vj-d40"/>
+                                </constraints>
                                 <size key="customSize" width="200" height="200"/>
+                                <connections>
+                                    <outlet property="professorLabel" destination="K2a-Gq-JY1" id="InH-eq-9hQ"/>
+                                    <outlet property="timeAndRoomLabel" destination="8hi-Oo-yOD" id="hGt-mz-vzg"/>
+                                    <outlet property="titleLabel" destination="HRi-fJ-ZIR" id="tSq-xt-bqx"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
