@@ -15,11 +15,21 @@ class MEBSession {
     var time: String
     var code: String
     
+    // MARK: Getters
+    
     var roomAndTime: String {
         get {
             return "\(time) • \(room)"
         }
     }
+    
+    var roomAndProfessor: String {
+        get {
+            return "\(room) • \(professor)"
+        }
+    }
+    
+    // MARK: Initialization
     
     init(title: String, professor: String, room: String, time: String, code: String) {
         self.title = title

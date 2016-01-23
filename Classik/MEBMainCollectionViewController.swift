@@ -26,7 +26,7 @@ class MEBMainCollectionViewController: UICollectionViewController {
         collectionView!.decelerationRate = UIScrollViewDecelerationRateFast
         
         // nav bar setup
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Compose, target: self, action: "compose")
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .Add, target: self, action: "addClass")
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,7 +39,7 @@ class MEBMainCollectionViewController: UICollectionViewController {
     
     // MARK: Selectors
     
-    func compose() {
+    func addClass() {
         // create new class block
     }
 

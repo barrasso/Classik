@@ -21,8 +21,8 @@ class ClassikCell: UICollectionViewCell {
             if let classik = classik {
 //                codeLabel.text = classik.code
                 titleLabel.text = classik.title
-                timeAndRoomLabel.text = classik.roomAndTime
-                professorLabel.text = classik.professor
+                timeAndRoomLabel.text = classik.time
+                professorLabel.text = classik.roomAndProfessor
             }
         }
     }
